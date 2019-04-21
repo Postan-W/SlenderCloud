@@ -1,0 +1,5 @@
+<uwsgi><socket>:8077</socket> 
+<chdir>/var/mysite</chdir> 
+<module>mysite.wsgi</module>
+<processes>4</processes>
+<daemonize>uwsgi.log</daemonize></uwsgi>
